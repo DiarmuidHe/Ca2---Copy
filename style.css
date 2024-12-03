@@ -20,6 +20,11 @@
     font-size: 1.5rem;
     color: white;
   }
+  #loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
   
   img {
     display: block;

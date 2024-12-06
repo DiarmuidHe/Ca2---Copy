@@ -10,6 +10,13 @@
     color: #666;
     background: #F6F6F6;
   }
+.allComics{
+  margin: 1rem;
+  box-shadow: 2px 4px 25px rgba(79, 9, 9, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
+}
 
 
   h1 {
@@ -35,7 +42,15 @@
     border-radius: 50%;
     max-width: 50%;
   }
-  
+
+  .chooseInfo{
+    height: 30em
+    
+  }
+  .chooseInfo h1{
+    font-size: 20px;
+    color:rgb(202, 191, 190)
+  }
   p {
     padding: 0 2.5rem 2.5rem;
     margin: 0;
@@ -43,8 +58,10 @@
   }
   .comicImage
   {
-    max-width: 80%;
-    margin: 0.7rem;
+    display: block;
+    width: block;
+    max-width: 33% ;
+    margin: 0.4rem auto;
   }
   .container {
     display: flex;
@@ -63,8 +80,6 @@
   button
   {
     background: rgb(161, 35, 26);
-   
-    
     bottom: 0;
     width: 100%;
 
